@@ -52,14 +52,51 @@
 
 /*     Home     */
 
-.margin-blocks-home {
-    margin: 0% 10%;
+#container {
+    width: 100%;
+    text-align: center;
+    display: flex;
 }
 .pdg-block-home {
     padding: 20% 180px;
 }
-
-
+.margin-auto {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+#left {
+    float: left;
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 35px;
+    cursor: pointer;
+    margin-right: 40px;    
+}
+#right {
+    float: right;
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 35px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.masthead-g {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+    background: url("img/7.jpg") no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+  }
 
 /*    Utils    */
 
@@ -90,3 +127,37 @@ p {
 .disp-flex {
     display: inline-flex !important;
 }
+.w-100 {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

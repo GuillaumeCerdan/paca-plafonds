@@ -21,6 +21,9 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
+  <!-- Main css -->
+  <link href="css/styles.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">

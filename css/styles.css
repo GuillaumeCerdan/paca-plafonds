@@ -98,6 +98,12 @@
     opacity: 0.8;
   }
 
+
+  #section-presentation {
+    background-color: #fff;
+    color: #000;
+  }
+
 /*    Utils    */
 
 h1 {

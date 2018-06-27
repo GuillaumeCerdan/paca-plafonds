@@ -103,6 +103,20 @@ h2 {
     cursor: pointer;
     margin-left: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+    #right > h3 {
+        font-size: 19px !important;
+        margin-bottom: 15px;
+    }
+    #left > h3 {
+        font-size: 19px !important;
+        margin-bottom: 15px;
+    }
+}
+
+
+
 .masthead-g {
     display: table;
     width: 100%;
@@ -132,7 +146,7 @@ h2 {
     background-size: cover;    
 }
 #part-pro {
-    padding: 150px 0px;
+    padding: 100px 0px 100px 0px !important;
 }
 .left-65 {
     float: left;
@@ -253,6 +267,12 @@ p {
     height: 100%;
     object-fit: cover;
 }
+.full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .pos-rel {
     position: relative;
 }

@@ -18,6 +18,11 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
+  <!--     FONTS     -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
@@ -54,36 +59,146 @@
   </nav>
 
   <!-- Intro Header -->
-  <header class="masthead-g">
+  <header class="masthead-g bck-img">
     <div class="intro-body">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div id="container">
 
-              <div id="left" onclick="goToParticuliers()">
-                <img src="img/part.png" width="50" height="50" class="mrg-bot" />
-                <h3>Particuliers</h3>
-                <p>Dératiseur, gigolo, illuminateur d'intérieur d'enfants et de maman bien sûr</p>
-              </div>
-
-
-              <div id="right" onclick="goToProfessionnels()">
-                <img src="img/pro.png" width="50" height="50" class="mrg-bot" />
-                <h3>Professionnels</h3>
-                <p>Ecoles, piscine municipale, télévisions perdues et cuisinier antillais</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
     </div>
   </header>
 
 
-  <!-- About Section -->
-  <section id="section-presentation" class="content-section text-center">
+  <div class="container bck-peinture w-100" id="part-pro">
+    <span class="test-gg">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div id="container">
+
+            <div id="left" onclick="goToParticuliers()">
+              <img src="img/part.png" width="50" height="50" class="mrg-bot" />
+              <h3>Particuliers</h3>
+              <p>Dératiseur, gigolo, illuminateur d'intérieur d'enfants et de maman bien sûr</p>
+            </div>
+
+
+            <div id="right" onclick="goToProfessionnels()">
+              <img src="img/pro.png" width="50" height="50" class="mrg-bot" />
+              <h3>Professionnels</h3>
+              <p>Ecoles, piscine municipale, télévisions perdues et cuisinier antillais</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+
+
+  <!--   Mon métier   -->
+
+  <div class="container w-100 pos-rel">
+    <div class="row">
+      <div class="left-65">
+        <div class="model-home">
+          <h2>Mon métier</h2>
+        </div>
+        <div class="model-home">
+          <p>Mon équipe et moi c’est 20 ans d’expérience sur des prestations d’excellence: Dubaï, Monaco, Paris, French Riviera...
+            Pour des clients exigents: Yacht Club, Marriott Hotel, Garden Party (...) Déco Flamme, GL (...) des entrepises
+            pour qui j’ai travaillé. J’ai même créé mon entreprise dans les Alpes. Je met aujourd’hui mon expérience à votre
+            service pour vos travaux, décorations ou rénovations.</p>
+        </div>
+        <div class="model-home">
+          <button type="button" class="home_button">Je veux un plafond</button>
+        </div>
+      </div>
+
+      <div class="right-35">
+
+        <img class="photo-home img-slider-g" src="img/slider-1.jpg" id="img1" style="display: block;" />
+        <img class="photo-home img-slider-g" src="img/slider-2.jpg" id="img2" style="display: none;" />
+        <img class="photo-home img-slider-g" src="img/slider-3.jpg" id="img3" style="display: none;" />
+
+        <button id="btn-moins">
+          <img src="img/back.svg" height="40" width="40" />
+        </button>
+        <button id="btn-plus">
+          <img src="img/next.svg" height="40" width="40" />
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <!--   Nos matériaux   -->
+
+  <div class="container w-100 pos-rel">
+    <div class="row">
+      <div class="left-35">
+
+        <img class="photo-home img-slider-g" src="img/slider-1.jpg" />
+
+      </div>
+      <div class="right-65">
+
+        <div class="model-home">
+          <h2>Nos matériaux</h2>
+        </div>
+
+        <div class="model-home">
+          <p>Faire un topic sur le matériaux parce qu’apparement il déchire ! Faut que je demande... Faire un topic sur le matériaux
+            parce qu’apparement il déchire ! Faut que je demande... Faire un topic sur le matériaux parce qu’apparement il
+            déchire ! Faut que je demande... Faire un topic sur le matériaux parce qu’apparement il déchire ! Faut que je
+            demande...
+          </p>
+        </div>
+
+        <div class="model-home">
+          <button type="button" class="home_button">Je veux un plafond</button>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--   Autre idée   -->
+
+  <div class="container w-100 pos-rel">
+    <div class="row">
+      <div class="left-65">
+
+        <div class="model-home">
+          <h2>Ceci est un titre</h2>
+        </div>
+
+        <div class="model-home">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam numquam ipsa, exercitationem ipsam, rerum consequatur
+            facere vel ab dolores molestias voluptates harum doloribus sed non quia velit. Provident, veniam odit!</p>
+        </div>
+
+        <div class="model-home">
+          <button type="button" class="home_button">Je veux un plafond</button>
+
+        </div>
+
+      </div>
+      <div class="right-35">
+
+        <img class="photo-home img-slider-g" src="img/slider-2.jpg" />
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--
+<section id="section-presentation" class="content-section text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -97,7 +212,6 @@
     </div>
   </section>
 
-  <!-- Download Section -->
   <section id="download" class="download-section content-section text-center">
     <div class="container">
       <div class="col-lg-8 mx-auto">
@@ -107,13 +221,14 @@
       </div>
     </div>
   </section>
+-->
 
   <!-- Contact Section -->
   <section id="contact" class="content-section text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact Start Bootstrap</h2>
+          <h2>Nous contacter</h2>
           <p>Feel free to leave us a comment on the
             <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
             on Start Bootstrap to give some feedback about this theme!</p>
@@ -143,9 +258,9 @@
   </section>
 
   <!-- Map Section -->
-  <div id="map"></div>
+  <!--<div id="map"></div>-->
   <!-- Footer -->
-  <footer>
+  <footer class="txt-black bck-white">
     <div class="container text-center">
       <p>Copyright &copy; Your Website 2018</p>
     </div>
